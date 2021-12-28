@@ -1,0 +1,121 @@
+.logo{
+width:20%;
+margin: auto;
+margin: auto;
+margin-top: 15%;
+margin-left: 40%;
+border-radius: 20px;
+}
+
+body{
+    background-color: black;
+    background-image: url("https://www.teahub.io/photos/full/58-587682_high-resolution-marvel-wallpaper-4k.jpg");
+}
+#main{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width:35%;
+    margin-top: 2%;
+}
+#main>input{
+    height:50px;
+    border-radius: 10px;
+    border:none;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #2b2b2b;
+    font-weight: 600;
+    padding-left: 2%;
+    color: #fff;
+}
+#main>input:focus{
+    outline-width: 0;
+}
+
+#data{
+    overflow: scroll;
+    scrollbar-width: 1px;
+    overflow-x: hidden;
+    height:200px;
+    font-family: fantasy;
+    color:#fff;
+}
+#data>div{
+    display: flex;
+    flex-direction: row;
+    font-weight: 300;
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: #2b2b2b;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border-radius: 10px;
+   padding-left: 10%;
+}
+#div1{
+   width:80%;
+   text-align: left;
+   font-weight: 500;
+   text-transform: capitalize;
+   padding-left: 2%;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+.ball{
+    border-radius: 50px;
+    height:1px;
+    width:1px;
+    background-color: #fff;
+    position: absolute;
+    z-index: -1;
+}
+
+.switch{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.switch>button{
+    background: transparent;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    outline: none;
+    font-weight: 700;
+}
+.switch>button:hover{
+    background-color: red;
+    color: white;
+}
+
+#datas{
+    overflow: scroll;
+    width:35%;
+    margin: auto;
+    scrollbar-width: 1px;
+    overflow-x: hidden;
+    height:250px;
+    font-family: fantasy;
+    color:#fff;
+}
+#datas>div{
+    display: flex;
+    height:100px;
+    flex-direction: column;
+    font-weight: 300;
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: #2b2b2b;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border-radius: 10px;
+   overflow:hidden;
+}
